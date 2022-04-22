@@ -66,7 +66,6 @@ const _createBrowser = async (): Promise<puppeteer.Browser> => {
   // https://pptr.dev/#?product=Puppeteer&show=api-puppeteerlaunchoptions
   const browser = await puppeteer.launch({
     headless: true,
-
     // https://dev.to/ziv/running-puppeteer-on-heroku-free-tier-e7b
     // https://peter.sh/experiments/chromium-command-line-switches/
     args: [
